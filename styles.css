@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { font-family: tahoma, sans-serif, Arial;
+background-color: #f0ecfd; 
+margin: 0 auto;
+padding: 24px;
+color:rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.p1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+
+.caixa {
+    background-color: #0f766e;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+    margin: 20px auto; 
+    color: rgba(243, 242, 242, 0.986);
+}
+
+.p3 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.p4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.p5 {
+    /* Usamos RGBA para o branco (255,255,255) com 70% de opacidade (0.7) */
+    color: rgba(255, 255, 255, 0.7); 
+    text-align: center;
+    font-family: tahoma, sans-serif, Arial;
+    font-size: 13px; /* Fonte ligeiramente menor que o 'Total Gasto' */
+    margin-top: 8px; /* Dá um pequeno respiro em relação ao R$ 0,00 */
+    font-weight: normal; /* Garante que o texto seja fino */
+}
+.upload {
+    width: 500px;
+    margin: 20px auto;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+.botao-tracejado {
+    display: block; 
+    background-color: #ffffff; 
+    border: 2px dashed #b0babc; 
+    border-radius: 10px; 
+    padding: 25px 10px; 
+    color: #4a5568; 
+    font-family: tahoma, sans-serif, Arial;
+    font-size: 14px;
+    font-weight: bold; 
+    text-align: center;
+    cursor: pointer; 
+    transition: 0.3s; 
+}
+
+.botao-tracejado:hover {
+    background-color: #f8f9fa;
+    border-color: #0f766e; 
+}
+
+#resultado-container {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.card-comprovante {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    font-family: tahoma, sans-serif, Arial;
+    color: #2d3748;
+    margin-bottom: 20px;
+}
+
+.estabelecimento {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #1a202c;
+}
+
+.lista-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.item-linha {
+    display: flex;
+    justify-content: space-between;
+    color: #4a5568;
+}
+
+.divisor {
+    border: none;
+    border-top: 1px dashed #cbd5e0;
+    margin: 15px 0;
+}
+
+.total-nota-linha {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 15px;
+    color: #0f766e;
+}

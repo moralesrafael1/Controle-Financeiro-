@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav { 
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  height: 30px; 
+  width: auto;         /* Mantém a proporção da imagem sem distorcer */
+  max-width: 150px;    /* Impede que a imagem ocupe a linha inteira */
+}
+
+/* Configuração da lista de navegação */
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;        
+  gap: 20px;          
+}
+
+
+nav ul .contact-item {
+  margin-left: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}

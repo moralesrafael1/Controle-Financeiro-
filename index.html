@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Controle Fiscal</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://js.puter.com/v2/"></script>
+</head>
+
+<body>
+	<div>
+		<h1>Controle Fiscal</h1>
+		<p class="p1">Nesse site você fará o upload de suas compras e a IA será responsável por organizar seus gastos.
+		</p>
+	</div>
+
+	<div class="caixa">
+		<p class="p3">Total Gasto</p>
+		<p class="p4">R$ 0,00</p>
+		<p class="p5">0 Comprovantes lidos</p>
+	</div>
+	
+	<div id="resultado-container"></div>
+
+	<div class="upload">
+		<label for="foto-comprovante" class="botao-tracejado">
+			🧾 Toque para fazer upload da imagem
+		</label>
+		<input class="foto" type="file" id="foto-comprovante" accept="image/*" capture="camera" onchange="lerfoto()">
+	</div>
+
+	<script src="scripts.js"></script>
+</body>
+
+</html>
